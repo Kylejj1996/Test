@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Festivals Website Project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard Vault Pages</title>
+    <!--Connecting the html document to the CSS-->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <!--The Navigation of the website-->
+      <nav>
+        <ul>
+          <li><a href="index.html" title="Home page"><span>Home</span></a></li>
+          <li><a href="projects.html" title="Projects"><span>Projects</span></a></li>
+          <li><a href="contact.html" title="Contact Form"><span>Contact</span></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="project-container">
+      <main class="project-page">
+        <section class="project-wrapper">
+          <section class="project-section">
+            <h1>Cosmic Blasters 2D Game</h1>
+              <div class="gif-wrapper">
+                <img class="styled-gif" src="gifs/CosmicBlasters.gif" alt="Cosmic Blasters gameplay gif">
+              </div>              
+              <p>Cosmic Blasters is a 2D space shooter game developed in Unity using C#. Inspired by classic arcade games like Space Invaders, 
+                  this project features animated enemies, player controls, power-ups, high scores, and intuitive UI screens. The game showcases object-oriented design, scene management, and dynamic gameplay elements.</p>
+                  <!-- GitHub Button -->
+              <a class="github-btn" href="https://github.com/Kylejj1996/Cosmic-Blasters-Unity" target="_blank" rel="noopener noreferrer">
+                <img src="images/Logos/GitHubLogo.png" alt="GitHub logo" class="github-icon"/>View on GitHub</a>
+          </section>
+            <!-- Loading Screen -->
+            <section class="project-section">
+              <h2>Loading Screen</h2>
+                <div class="project-content">
+                  <img src="images/Blasters/LoadingScreen.png" alt="Loading Screen for Cosmic Blasters" class="project-image"/>  
+                  <p>The loading screen is the first element players encounter. It displays the game title and a dynamic 
+                      loading animation, giving players a brief moment to anticipate the action. This screen uses Unity’s scene management system to transition smoothly into the main menu.</p>
+                  </div>
+            </section>
+            <!-- Home Screen -->
+            <section class="project-section">
+              <h2>Home Screen</h2>
+                <div class="project-content">
+                  <img src="images/Blasters/HomeScreen.png" alt="Home Screen for Cosmic Blasters" class="project-image"/>
+                  <p>The home screen acts as the central hub of the game, allowing players to start a new game, view instructions, or check high scores. 
+                      The interface is built with Unity’s UI system and styled to match the game’s futuristic space theme.</p>
+                </div>
+            </section>
+            <!-- Instructions Screen -->
+            <section class="project-section">
+              <h2>Instructions Screen</h2>
+                <div class="project-content">
+                  <img src="images/Blasters/Instructions.png" alt="Instructions Screen for Cosmic Blasters" class="project-image"/>
+                  <p>The instructions screen provides a quick overview of how to play. Players can click and drag to move the spaceship, while firing is handled automatically. 
+                      The objective is to destroy all enemies, collect power-up pickups, and avoid dangerous obstacles like the skull. It's a fast-paced challenge where players aim for the highest score possible.
+                  </p>
+                </div>
+            </section>
+            <!-- Gameplay Screen -->
+            <section class="project-section">
+              <h2>Gameplay Screen</h2>
+                <div class="project-content">
+                  <img src="images/Blasters/GamePlay.png" alt="Cosmic Blasters Gameplay Screen" class="project-image"/>
+                  <p>The core of the game takes place in the gameplay scene. Players control a spaceship, shoot incoming enemies, 
+                    and collect power-ups while avoiding damage. The game uses Unity physics, collision detection, and custom C# scripts to manage enemy waves, scoring, and player lives.</p>
+                </div>
+            </section>
+            <!-- High Scores Screen -->
+            <section class="project-section">
+              <h2>High Scores Screen</h2>
+                <div class="project-content">
+                  <img src="images/Blasters/HighScores.png" alt="Cosmic Blasters HighScores Screen" class="project-image"/>
+                  <p>After the game ends, players can view the high scores screen, which displays a leaderboard of top scores saved locally. 
+                      This feature uses persistent data storage and encourages replayability by challenging players to beat their previous records.
+                  </p>
+                </div>
+            </section>
+            <!-- Technologies Used -->
+            <section class="tech-section">
+              <h2>Technologies & Tools</h2>
+                <ul class="tech-list">
+                  <li><img src="images/Logos/CSharpLogo.png" alt="C# Logo Logo"><span>C#</span></li>
+                  <li><img src="images/Logos/UnityLogo.png" alt="Unity Logo"><span>Unity</span></li>
+                  <li><img src="images/Logos/VisualStudioCommunityLogo.png" alt="Visual Studio Logo"><span>Visual Studio</span></li>
+                </ul>
+            </section>
+        </section>
+      </main>
+    </div>
+    <!--The footer-->
+    <footer>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/kyle-johnson-845718335/" target="_blank" title="View Kyle Johnson's LinkedIn Profile"><img src="images/LI-Logo.png" alt="LinkedIn Profile"/></a>
+        <a href="https://github.com/Kylejj1996" target="_blank" title="View Kyle Johnson's GitHub Profile"><img src="images/github-logo.png" alt="GitHub Profile"/></a>
+      </div>
+      <p class="footer-copyright">&copy; Copyright 2025 - <a class="footDesign" href="mailto:kjjohnson138623@mymail.tstc.edu">Kyle Johnson</a>. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

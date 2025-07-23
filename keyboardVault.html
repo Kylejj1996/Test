@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Keyboard Vault Project Details" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard Vault Pages</title>
+    <!--Connecting the html document to the CSS-->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+        <!--The Navigation of the website-->
+        <nav>
+          <ul>
+            <li><a href="index.html" title="Home page"><span>Home</span></a></li>
+            <li><a href="projects.html" title="Projects"><span>Projects</span></a></li>
+            <li><a href="contact.html" title="Contact Form"><span>Contact</span></a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="project-container">
+        <main class="project-page">
+          <section class="project-wrapper">
+            <section class="kv-intro">
+              <h1>Keyboard Vault</h1>
+              <p>A desktop retail application developed in C# with a local SQLite database.
+                The system supports multiple user roles with distinct features for customers and managers, ensuring a secure and efficient workflow.</p>
+              <div class="intro-gif-col">
+                <img src="gifs/KV.gif" alt="Keyboard Vault preview" title="Keyboard Vault in use gif"/>
+              </div>
+              <a class="github-btn" href="https://github.com/Kylejj1996/KeyboardVaultApp" target="_blank" rel="noopener noreferrer">
+                <img src="images/Logos/GitHubLogo.png" alt="GitHub logo" class="github-icon"/>View on GitHub</a>
+            </section>
+
+            <!-- Customer Features -->
+            <section class="project-section">
+              <h2>Customer Features</h2>
+              <p>The Customer View allows users to navigate the store, manage their orders, and interact with the system seamlessly.</p>
+              <section class="project-content">
+                <a href="images/KeyboardVault/customerView.png" data-lightbox="customer" data-title="Customer View"> <img src="images/KeyboardVault/customerView.png" alt="Screenshot of Customer view screen" class="project-image"/></a>
+                <ul>
+                  <li>Browse and search products</li>
+                  <li>Add to cart with quantity updates</li>
+                  <li>Checkout with payment and promo codes</li>
+                  <li>HTML receipts generated automatically</li>
+                  <li>View and review past orders</li>
+                  <li>Submit return requests</li>
+                </ul>
+              </section>
+            </section>
+
+            <!-- Manager Features -->
+            <section class="project-section">
+              <h2>Manager Features</h2>
+              <p>Managers have access to advanced tools for managing inventory, users, sales analytics, and promotions.</p>
+              <section class="project-content">
+                <a href="images/KeyboardVault/managerView.png" data-lightbox="manager" data-title="Inventory Management"> <img src="images/KeyboardVault/managerView.png" alt="Screenshot of Manager view screen" class="project-image"/></a>
+                  <ul>
+                    <li>Full inventory control: add, update, remove products</li>
+                    <li>Upload & manage product images</li>
+                    <li>Low stock notifications</li>
+                    <li>Create & edit promo codes</li>
+                    <li>Set promo start & end dates</li>
+                    <li>View sales, inventory & return reports</li>
+                    <li>Manage employee & customer accounts</li>
+                    <li>Approve or deny return requests</li>
+                    <li>Shop for Customers</li>
+                  </ul>
+              </section>
+            </section>
+
+            <section class="tech-section">
+              <h2>Technologies & Tools</h2>
+                <ul class="tech-list">
+                  <li><img src="images/Logos/CSharpLogo.png" alt="C# Logo Logo"><span>C# (WinForms)</span></li>
+                  <li><img src="images/Logos/SQLiteLogo.png" alt="SQLite Logo"><span>SQLite Database</span></li>
+                  <li><img src="images/Logos/VisualStudioCommunityLogo.png" alt="Visual Studio Logo"><span>Visual Studio</span></li>
+                  <li>Object-Oriented Design</li>
+                </ul>
+            </section>
+          </section>
+        </main>
+      </div>
+      <!--The footer-->
+      <footer>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/kyle-johnson-845718335/" target="_blank" title="View Kyle Johnson's LinkedIn Profile"><img src="images/LI-Logo.png" alt="LinkedIn Profile"/></a>
+        <a href="https://github.com/Kylejj1996" target="_blank" title="View Kyle Johnson's GitHub Profile"><img src="images/github-logo.png" alt="GitHub Profile"/></a>
+      </div>
+      <p class="footer-copyright">&copy; Copyright 2025 - <a class="footDesign" href="mailto:kjjohnson138623@mymail.tstc.edu">Kyle Johnson</a>. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
